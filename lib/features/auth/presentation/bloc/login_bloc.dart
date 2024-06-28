@@ -1,5 +1,5 @@
-import 'package:app_shell/features/auth/login/infraestructure/inputs/email.dart';
-import 'package:app_shell/features/auth/login/infraestructure/inputs/password.dart';
+import 'package:app_shell/features/auth/infraestructure/inputs/email.dart';
+import 'package:app_shell/features/auth/infraestructure/inputs/password.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:formz/formz.dart';

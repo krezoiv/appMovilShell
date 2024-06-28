@@ -1,5 +1,5 @@
-import 'package:app_shell/features/auth/login/presentation/bloc/login_bloc.dart';
-import 'package:app_shell/features/auth/login/presentation/widgets/widgets_auth.dart';
+import 'package:app_shell/features/auth/presentation/bloc/login_bloc.dart';
+import 'package:app_shell/features/auth/presentation/widgets/widgets_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
