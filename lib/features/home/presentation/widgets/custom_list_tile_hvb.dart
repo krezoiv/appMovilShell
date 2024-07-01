@@ -1,5 +1,7 @@
-import 'package:app_shell/config/menu/menu_items.dart';
+import 'package:app_shell/config/menus/menu_items.dart';
+
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class CustomListTileHVB extends StatelessWidget {
   const CustomListTileHVB({
@@ -18,7 +20,9 @@ class CustomListTileHVB extends StatelessWidget {
       trailing: Icon(Icons.arrow_forward_ios_rounded, color: colors.primary),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
-      onTap: () {},
+      onTap: () {
+        context.push(menuItem.link);
+      },
     );
   }
 }

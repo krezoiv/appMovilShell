@@ -1,4 +1,4 @@
-import 'package:app_shell/config/menu/menu_items.dart';
+import 'package:app_shell/config/menus/menu_items.dart';
 import 'package:app_shell/features/home/presentation/widgets/custom_list_tile_hvb.dart';
 import 'package:flutter/material.dart';
 
